@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/passwodGenerator/static/css/main.07dc0d67.css",
-    "main.js": "/passwodGenerator/static/js/main.8908d508.js",
-    "static/media/ocean.gif": "/passwodGenerator/static/media/ocean.e9fa33e266725bf465ed.gif",
-    "index.html": "/passwodGenerator/index.html",
-    "main.07dc0d67.css.map": "/passwodGenerator/static/css/main.07dc0d67.css.map",
-    "main.8908d508.js.map": "/passwodGenerator/static/js/main.8908d508.js.map"
+    "main.css": "/passwordGenerator/static/css/main.4eb1e3fe.css",
+    "main.js": "/passwordGenerator/static/js/main.44859ffb.js",
+    "static/media/ocean.gif": "/passwordGenerator/static/media/ocean.e9fa33e266725bf465ed.gif",
+    "index.html": "/passwordGenerator/index.html",
+    "main.4eb1e3fe.css.map": "/passwordGenerator/static/css/main.4eb1e3fe.css.map",
+    "main.44859ffb.js.map": "/passwordGenerator/static/js/main.44859ffb.js.map"
   },
   "entrypoints": [
-    "static/css/main.07dc0d67.css",
-    "static/js/main.8908d508.js"
+    "static/css/main.4eb1e3fe.css",
+    "static/js/main.44859ffb.js"
   ]
 }
