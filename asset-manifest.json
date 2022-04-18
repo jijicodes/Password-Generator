@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/passwodGenerator/static/css/main.07dc0d67.css",
+    "main.js": "/passwodGenerator/static/js/main.8908d508.js",
+    "static/media/ocean.gif": "/passwodGenerator/static/media/ocean.e9fa33e266725bf465ed.gif",
+    "index.html": "/passwodGenerator/index.html",
+    "main.07dc0d67.css.map": "/passwodGenerator/static/css/main.07dc0d67.css.map",
+    "main.8908d508.js.map": "/passwodGenerator/static/js/main.8908d508.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07dc0d67.css",
+    "static/js/main.8908d508.js"
+  ]
+}
