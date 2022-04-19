@@ -7,7 +7,12 @@ export const PasswordDisplay = ({ password, refreshHandle }) => {
   const [a, b] = useCopyToClipboard();
   return (
     //color:  "#6AAEB5", "#B6C9F5",
-    <Box background="plainWhite" round="small" direction="row" border>
+    <Box
+      background="plainWhite"
+      round="small"
+      direction="row"
+      border={{ color: "#FFD7D3" }}
+    >
       <Box pad="medium">
         <Text
           style={{ fontFamily: "monospace" }}

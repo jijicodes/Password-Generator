@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { Box, Heading } from "grommet";
+import { Box, Text, Heading } from "grommet";
 import { PasswordDisplay } from "../components/PasswordDisplay";
 import { Options } from "../components/Options";
 import { generatePW } from "../utils/generatePW";

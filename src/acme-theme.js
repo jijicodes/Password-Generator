@@ -3,6 +3,23 @@ export const acme = {
   text: {
     font: { family: "Sans-Serif, fantasy" },
   },
+  rangeInput: {
+    thumb: {
+      color: "#FFD7D3",
+    },
+  },
+  anchor: {
+    color: {
+      light: "white",
+    },
+    hover: {
+      fontWeight: 900,
+      extend: {
+        color: "#FFD7D3",
+      },
+    },
+  },
+
   global: {
     colors: {
       fairyPink: {
