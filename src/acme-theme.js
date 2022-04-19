@@ -13,7 +13,7 @@ export const acme = {
       light: "white",
     },
     hover: {
-      fontWeight: 900,
+      fontWeight: 600,
       extend: {
         color: "#FFD7D3",
       },

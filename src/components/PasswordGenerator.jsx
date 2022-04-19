@@ -1,10 +1,11 @@
-import React, { useCallback, useState } from "react";
-import { Box, Text, Heading } from "grommet";
+import React, { useCallback, useContext, useState } from "react";
+import { Box, Text, Heading, ResponsiveContext } from "grommet";
 import { PasswordDisplay } from "../components/PasswordDisplay";
 import { Options } from "../components/Options";
 import { generatePW } from "../utils/generatePW";
 
 export const PasswordGenerator = () => {
+  const size = useContext(ResponsiveContext);
   const [updateConditions, setUpdateConditions] = useState({
     passwordLength: 11,
     upper: true,
@@ -18,10 +19,14 @@ export const PasswordGenerator = () => {
     setUpdateConditions(change);
     setPassword(generatePW(change));
   }, []);
-  //pink B "#FEAFA6"
-  //"#6AAEB5"
   return (
-    <Box fill justify="center" align="center" background="transparent">
+    <Box
+      fill
+      justify="center"
+      align="center"
+      background="transparent"
+      margin={size === "small" ? "10px" : undefined}
+    >
       <Box
         background="kashmirBlue"
         elevation="xlarge"
@@ -29,12 +34,13 @@ export const PasswordGenerator = () => {
         gap="medium"
         align="center"
         justify="between"
-        pad="medium"
         margin={{ top: "-10vh" }}
         round="10px"
         border={{ size: "small" }}
       >
-        <Heading color="white">Password Generator</Heading>
+        <Heading color="white" margin="medium" size="small">
+          Password Generator
+        </Heading>
         <PasswordDisplay
           password={password}
           refreshHandle={() => {

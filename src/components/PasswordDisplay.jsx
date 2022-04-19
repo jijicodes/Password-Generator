@@ -12,6 +12,7 @@ export const PasswordDisplay = ({ password, refreshHandle }) => {
       round="small"
       direction="row"
       border={{ color: "#FFD7D3" }}
+      responsive="true"
     >
       <Box pad="medium">
         <Text
